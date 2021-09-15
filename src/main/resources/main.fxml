@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.hyd.match3fx.controller.MainController">
+
+    <center>
+        <Group fx:id="board">
+            <Canvas fx:id="cvBackground" width="402" height="402"/>
+        </Group>
+    </center>
+</BorderPane>
